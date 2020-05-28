@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/zariPurple"
+    tools:context=".signup_seller">
+
+    <ImageView
+        android:id="@+id/ssup"
+        android:layout_width="193dp"
+        android:layout_height="117dp"
+
+        android:foregroundGravity="center"
+        android:src="@drawable/logopurplebg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/ssuname"
+        android:layout_width="275dp"
+        android:layout_height="54dp"
+
+        android:backgroundTint="@color/white"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:hint="@string/sellername"
+        android:padding="16dp"
+
+        android:textColor="@color/white"
+
+        android:textColorHint="@color/white"
+
+        android:textColorLink="@color/white"
+        android:textSize="22sp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ssup" />
+
+    <EditText
+        android:id="@+id/ssuemail"
+        android:layout_width="275dp"
+        android:layout_height="54dp"
+
+        android:layout_marginTop="12dp"
+
+        android:backgroundTint="@color/white"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:hint="@string/selleremail"
+        android:padding="16dp"
+
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textColorLink="@color/white"
+        android:textSize="22sp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ssuname" />
+
+    <EditText
+        android:id="@+id/ssuphone"
+        android:layout_width="275dp"
+        android:layout_height="54dp"
+
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@color/white"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:hint="@string/sellerphone"
+
+        android:padding="16dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textColorLink="@color/white"
+
+        android:textSize="22sp"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ssuemail" />
+
+    <EditText
+        android:id="@+id/ssuaddress"
+        android:layout_width="275dp"
+        android:layout_height="54dp"
+
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@color/white"
+        android:foregroundGravity="center"
+        android:gravity="center"
+
+        android:hint="@string/selleraddress"
+        android:padding="16dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+
+        android:textColorLink="@color/white"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ssuphone" />
+
+    <EditText
+        android:id="@+id/ssupass"
+        android:layout_width="275dp"
+        android:layout_height="54dp"
+
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@color/white"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:hint="@string/sellerpassword"
+
+        android:inputType="textPassword"
+        android:padding="16dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textColorLink="@color/white"
+
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ssuaddress" />
+
+    <EditText
+        android:id="@+id/ssuconfirmpass"
+        android:layout_width="275dp"
+        android:layout_height="54dp"
+
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@color/white"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:hint="@string/sellerconfirmpass"
+
+        android:inputType="textPassword"
+        android:padding="16dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textColorLink="@color/white"
+
+        android:textSize="22sp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ssupass" />
+
+    <Button
+        android:id="@+id/sellerlogo"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/zariPurple"
+
+        android:layout_marginTop="12dp"
+        android:text="@string/sellerlogo"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:textSize="22sp"
+        android:shadowColor="@color/fade_white"
+
+        android:padding="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ssuconfirmpass" />
+
+    <Button
+        android:id="@+id/sellersu"
+        android:layout_width="154dp"
+        android:layout_height="49dp"
+
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/round_btn"
+
+        android:text="@string/sellerregister"
+
+
+        android:textColor="@color/zariPurple"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

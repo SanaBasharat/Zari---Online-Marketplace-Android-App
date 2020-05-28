@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "129030243202",
+    "firebase_url": "https://zari-ff1f2.firebaseio.com",
+    "project_id": "zari-ff1f2",
+    "storage_bucket": "zari-ff1f2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:129030243202:android:f36e4c4f4ee088888b459b",
+        "android_client_info": {
+          "package_name": "com.example.project_zari"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "129030243202-3tsj59bdckn57f6sfe2kuls0fus88cb9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.project_zari",
+            "certificate_hash": "cd1a7ab653ad7524a95e59b65eefc9760bf92c3e"
+          }
+        },
+        {
+          "client_id": "129030243202-tt4bg5tsd7u3di6llp7903t0vjljcrgr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlZSXCRDLaVd6T4hgO7Dbw3FevMct3wwc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "129030243202-tt4bg5tsd7u3di6llp7903t0vjljcrgr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

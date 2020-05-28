@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/accfrag"
+    android:background="@color/fade_white">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/justforyou"
+            android:background="@color/zariPurple"
+
+            android:text="@string/your_account"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:textColor="@color/fade_white"
+            />
+    </androidx.cardview.widget.CardView>
+    <ImageView
+        android:id="@+id/usericon"
+        android:layout_width="165dp"
+        android:layout_height="103dp"
+        android:layout_marginTop="140dp"
+        android:foregroundGravity="center"
+        android:src="@drawable/user"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="182dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="28dp"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:text="@string/buyer_name"
+        android:textColor="@color/zariPurple"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/usericon">
+    </TextView>
+
+    <TextView
+        android:id="@+id/useremail"
+        android:layout_width="182dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="12dp"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:text="@string/buyer_email"
+        android:textColor="@color/zariPurple"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/username">
+    </TextView>
+
+    <TextView
+        android:id="@+id/userdob"
+        android:layout_width="182dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="12dp"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:text="@string/buyer_phone"
+        android:textColor="@color/zariPurple"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/useremail">
+    </TextView>
+
+    <TextView
+        android:id="@+id/usergender"
+        android:layout_width="182dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="12dp"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:text="@string/buyer_add"
+        android:textColor="@color/zariPurple"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/userdob">
+    </TextView>
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="145dp"
+        android:layout_height="43dp"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/roundbtnpurple"
+        android:text="@string/sign_out"
+        android:textColor="@color/fade_white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.895"
+        app:layout_constraintStart_toStartOf="parent">
+    </Button>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

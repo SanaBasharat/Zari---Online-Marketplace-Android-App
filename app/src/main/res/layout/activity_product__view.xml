@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Product_View"
+    android:orientation="vertical">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:background="@color/lightgray">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/prod_image"
+                android:layout_width="240dp"
+                android:layout_height="240dp"
+                android:layout_gravity="center"
+                android:background="@color/darkgray">
+
+            </ImageView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                >
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/lightgray"
+                    >
+
+                    <TextView
+                        android:id="@+id/price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="10dp"
+                        android:text="@string/amount"
+                        android:textColor="@color/darkgray"
+                        android:textSize="26sp"
+
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.159"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/pricetext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="10dp"
+                        android:text="@string/prod_price"
+                        android:textColor="@color/darkgray"
+                        android:textSize="26sp"
+                        android:layout_marginLeft="5dp"
+
+                        app:layout_constraintEnd_toStartOf="@id/price"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/prod_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:paddingTop="10dp"
+                        android:text="@string/prod_name"
+                        android:textColor="@color/darkgray"
+                        android:textSize="26sp"
+                        android:layout_marginLeft="5dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/pricetext" />
+
+                    <ImageButton
+                        android:id="@+id/favs"
+                        android:layout_width="62dp"
+                        android:layout_height="53dp"
+                        android:layout_marginTop="8dp"
+                        android:background="@color/lightgray"
+                        android:src="@drawable/ic_favorite_border_black_24dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.765"
+                        app:layout_constraintStart_toEndOf="@id/price"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                    </ImageButton>
+
+                    <TextView
+                        android:id="@+id/addtoFav"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="10dp"
+                        android:text="@string/addtofav"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.847"
+                        app:layout_constraintStart_toEndOf="@id/prod_name"
+                        app:layout_constraintTop_toBottomOf="@id/favs" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="@color/grayColor"
+                        app:layout_constraintBottom_toBottomOf="@id/prod_name"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+
+                        />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@color/lightgray">
+
+                    <TextView
+                        android:id="@+id/proddesc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="10dp"
+                        android:text="@string/prod_desc"
+                        android:textColor="@color/darkgray"
+                        android:layout_marginLeft="5dp"
+                        android:textSize="25sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/proddesctext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="10dp"
+                        android:text="@string/prod_desctext"
+                        android:textColor="@color/darkgray"
+                        android:textSize="15sp"
+                        android:layout_marginLeft="5dp"
+                        >
+
+                    </TextView>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="@color/grayColor"
+
+                        />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@color/lightgray">
+
+                    <TextView
+                        android:id="@+id/rating_prod"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="10dp"
+                        android:text="@string/prod_rating"
+                        android:textColor="@color/darkgray"
+                        android:textSize="25sp"
+                        android:layout_marginLeft="5dp"
+                        >
+
+                    </TextView>
+
+                    <RatingBar
+                        android:id="@+id/prodratingBar"
+                        style="@style/Widget.AppCompat.RatingBar.Indicator"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:isIndicator="true"
+                        android:layout_marginLeft="5dp"
+                        android:theme="@style/AppThemeRatingBar">
+
+                    </RatingBar>
+
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
+        android:id="@+id/numpicker"
+        android:padding="3dp"
+        android:layout_width="240dp"
+        android:layout_height="61dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        app:backGroundColor="@color/zariPurple"
+        app:textColor="@color/white"
+        app:textSize="8sp"
+        app:initialNumber="1"
+        app:finalNumber="10"
+        />
+
+    <Button
+        android:id="@+id/addtocart"
+        android:layout_width="240dp"
+        android:layout_height="61dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/roundbtnpurple"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="@string/addtocart"
+        android:textColor="@color/fade_white"
+        android:textSize="20dp">
+
+    </Button>
+
+    <!--<Button
+        android:id="@+id/visitshop"
+        android:layout_width="240dp"
+        android:layout_height="61dp"
+        android:text="Visit Shop"
+        android:textSize="20dp"
+        android:background="@drawable/roundbtnpurple"
+        android:textColor="@color/fade_white"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:padding="5dp"
+        >
+
+    </Button>-->
+
+</LinearLayout>

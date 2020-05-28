@@ -1,0 +1,2 @@
+include ':app', ':database'
+rootProject.name='Project_zari'

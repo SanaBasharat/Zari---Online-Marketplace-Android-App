@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">Zari</string>
+
+
+    //START UP STRINGS
+    <string name="sign_in_buyer">Sign In as Buyer</string>
+    <string name="sign_in_seller">Sign In as Seller</string>
+    //
+
+    //BUYER SIGN IN TEXT
+    <string name="buyeremail">Email</string>
+    <string name="buyerpassword">Password</string>
+
+    <string name="buyersignin">Sign In</string>
+    <string name="buyersignup">Click Here to Sign Up</string>
+    //
+
+    //BUYER SIGN UP STRINGS
+
+    <string name="buyername">Name</string>
+    <string name="buyerDOB">Select Date of Birth</string>
+    <string name="buyerconfirmpass">Confirm Password</string>
+    <string name="buyerregister">Register</string>
+    <string name="buyergender">Gender</string>
+    <string name="buyermale">Male</string>
+    <string name="buyerfemale">Female</string>
+    <string name="buyerother">Other</string>
+    <string name="buyernonbinary">Non-Binary</string>
+
+    //
+
+
+    <string name="sellername">Brand Name</string>
+    <string name="selleremail">Email</string>
+    <string name="sellerpassword">Password</string>
+    <string name="sellerconfirmpass">Confirm Password</string>
+    <string name="sellerregister">Register</string>
+    <string name="sellerphone">Phone</string>
+    <string name="sellerlogo">Upload Logo</string>
+    <string name="selleraddress">Shop Address</string>
+    <string name="sellersignin">Sign In</string>
+    <string name="sellersignup">Click here to Sign Up</string>
+
+
+    <string name="menu_activity">Activity</string>
+    <string name="menu_shop">Shop</string>
+    <string name="menu_message">Message</string>
+    <string name="menu_profile">Profile</string>
+
+
+    //Navigation bar buyer
+
+    <string name="title_activity_buyer_homepage">buyer_homepage</string>
+    <string name="title_home">Home</string>
+    <string name="title_favorites">Favorites</string>
+    <string name="title_account">Account</string>
+    //
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    //
+
+    //Buyer home
+    <string name="search_here">Search Here</string>
+    <string name="justforyou">\'\'\'Just For You\'\'\'</string>
+    <string name="prod_name">Product Title</string>
+    <string name="prod_price">RS. </string>
+    <string name="addtofav">Add to Favorites </string>
+    <string name="prod_desc">Product Description </string>
+    <string name="prod_desctext">Random Text which describes product </string>
+    <string name="prod_rating">Product Rating </string>
+    <string name="addtocart">Add to Cart</string>
+    //
+
+    //Buyer Account
+    <string name="buyer_name">User Name</string>
+    <string name="buyer_email">Buyer Email</string>
+    <string name="buyer_phone">Buyer Date Of Birth</string>
+    <string name="buyer_add">Buyer Gender</string>
+    <string name="sign_out">Sign Out</string>
+    //
+
+    //Order Placed
+    <string name="orderplaced">Congratulations!\nYour Order has been successful placed.</string>
+    <string name="contact">We will contact you in a few days for confirmation.</string>
+    <string name="continue_shopping">Continue Shopping</string>
+    <string name="product_name">Product Name</string>
+    <string name="description_blah">Description: blah blah blah blah blah blah blah blah blah blah</string>
+    <string name="amount">amount</string>
+    <string name="name">Name</string>
+    <string name="description">Description</string>
+    <string name="phone">Phone</string>
+    <string name="address">Address</string>
+    <string name="recent_activity">Recent Activity</string>
+    <string name="best_sellers">Best Sellers</string>
+    <string name="your_favorites">Your Favorites</string>
+    <string name="your_account">Your Account</string>
+
+    //
+
+</resources>
