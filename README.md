@@ -1,0 +1,4 @@
+# Zari---Online-Marketplace-Android-App
+Final Project for Software Mobile Development Course. Zari is an Android app, where people can open their own online stores (traditional clothes, shoes, jewelry) and customers can browse through them and buy.
+
+It is an online platform where people can market and sell their hand-made products like clothes, shoes, bags, traditional embroidery work etc. Using the application, people (i.e. the sellers) will be able to upload their designs, set their price and display them for sale in their own online “shop”. They can select a brand name and logo, and directly interact with customers. On the other hand, people (i.e. the buyers) will be able to search for products and shops by name, after which they will be presented with a list sorted according to ratings or price. They will be able to add their favorite items to their cart and then proceed to checkout, where their order will be confirmed and the price displayed.
